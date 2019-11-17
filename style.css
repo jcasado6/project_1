@@ -1,0 +1,80 @@
+body {
+    background: white;
+    color: rgb(72,55,50);
+    font-family: 'Roboto', sans-serif;
+}
+
+section.container {
+    display: grid;
+    grid-template-columns: 40% 35% 25%;
+    grid-template-rows: 25% 40% 35%;
+    border: red solid 10px;
+}
+
+header {
+    display: grid;
+    display: inline;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    justify-self: center;
+    border: blue solid 5px;
+}
+
+section.button {
+    display: grid;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    justify-self: right;
+    border: blue solid 5px;
+}
+
+h1 {
+    display: grid;
+    border: blue solid 5px;
+    font-size: 115px;
+    font-weight: bold;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    justify-self: stretch;
+    align-self: center;
+}
+
+/* img {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 4;
+    grid-row-end: end;
+    align-self: end;
+} */
+
+section.main {
+    display: grid;
+    border: blue solid 5px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+div.welcome {
+    border: blue solid 5px;
+    justify-self: center;
+} 
+
+div.info {
+    border: blue solid 5px;
+}
+
+div.button2 {
+    border: rgb(72,55,50) solid 1px;
+    justify-self: center;
+    background-color: rgb(72,55,50);
+    color: white;
+    width: 80px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: lighter;
+}
